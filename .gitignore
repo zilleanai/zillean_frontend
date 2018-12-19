@@ -1,0 +1,5 @@
+#### FRONTEND ####
+node_modules/
+/static/
+frontend/app/config.js
+

@@ -23,7 +23,7 @@ const LOG_LEVEL = DEBUG
 
 const SERVER_URL = '' // set this if your API server is different from the frontend server
 
-const SITE_NAME = 'Flask React SPA'
+const SITE_NAME = 'ML Platform'
 const COPYRIGHT = 'Company Name'
 
 const HIGHLIGHT_LANGUAGES = [
