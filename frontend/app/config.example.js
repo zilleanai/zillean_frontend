@@ -24,7 +24,7 @@ const LOG_LEVEL = DEBUG
 const SERVER_URL = '' // set this if your API server is different from the frontend server
 
 const SITE_NAME = 'ML Platform'
-const COPYRIGHT = 'Company Name'
+const COPYRIGHT = 'chriamue'
 
 const HIGHLIGHT_LANGUAGES = [
   'javascript',
