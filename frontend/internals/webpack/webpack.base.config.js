@@ -65,7 +65,7 @@ module.exports = (options) => ({
         use: [{ loader: 'json-loader' }],
       },
       {
-        test: /\.png$/,
+        test: /\.(gif|ttf|png)$/,
         use: [
           {
             loader: 'url-loader',
