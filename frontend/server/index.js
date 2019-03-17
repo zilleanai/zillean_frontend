@@ -26,6 +26,7 @@ const backendHost = process.env.API_HOST || frontendHost
 // If you need a backend, e.g. an API, add your custom backend-specific middleware here
 app.use(/^\/api|auth\//, proxy(`http://${backendHost}:${backendPort}`, {
     proxyReqPathResolver: (req) => req.baseUrl + req.url,
+    limit: "1024mb",
 }))
 
 addDevMiddlewares(app, webpackConfig)
