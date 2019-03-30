@@ -1,6 +1,6 @@
 // No need to build the DLL in production
 if (process.env.NODE_ENV === 'production') {
-  process.exit(0)
+  // process.exit(0) causing error: The DLL manifest is missing. Please run `npm run build:dll
 }
 
 require('shelljs/global')
