@@ -23,7 +23,7 @@ const LOG_LEVEL = DEBUG
 
 const SERVER_URL = '' // set this if your API server is different from the frontend server
 
-const SITE_NAME = 'ML Platform'
+const SITE_NAME = 'Zillean'
 const COPYRIGHT = 'chriamue'
 
 const HIGHLIGHT_LANGUAGES = [
